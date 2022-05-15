@@ -1,0 +1,10 @@
+program n_1
+var a,b,p,s:real;
+begin
+writeln('вычисление площади и периметра прямоугольника');
+read (a,b);
+s:=a*b;
+p:=2*(a+b);
+wtiteln ('Площадь равна',s);
+wtiteln ('Периметр равен',p)
+end.
